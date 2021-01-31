@@ -1,0 +1,34 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+body {
+    background-color: #29364e;
+    color: #ffffff;
+}
+
+.sign-up-btn {
+    margin-left: 20px;
+}
+
+.input-field {
+    label {
+        color: rgb(238, 255, 0) !important;
+    }
+    input {
+        color: #ffffff !important;
+        border-bottom: 1px solid #ffffff !important;
+        box-shadow: 0 1px 0 0 #ffffff !important;
+    }
+}
+
+#toast-container {
+    top: 20px;
+    right: 20px;
+    left: auto;
+}
+
+.nav-wrapper {
+    padding: 0 10px 0 20px;
+    .nav-link {
+        font-size: 21px;
+    }
+}

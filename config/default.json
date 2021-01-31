@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "mongoDbUrl": "mongodb+srv://BorisHere:pass123@cluster0.smlau.mongodb.net/app?retryWrites=true&w=majority",
+    "jwtSecret": "Boris uses express",
+    "baseUrl": "http://localhost:5000"
+}
