@@ -1,4 +1,4 @@
-## Links-shortening-app
+## Links Shortening App
 
 ### To run the app:
 `npm run dev`
