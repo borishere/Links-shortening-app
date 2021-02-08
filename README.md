@@ -1,7 +1,7 @@
 ## Links Shortening App
 
 ### To run the app:
-`npm run dev`
+`npm i && npm run dev`
 
 <br>
 
@@ -11,4 +11,4 @@
 * Express JS
 * MongoDB
 * Json Web Token
-* Materialize.
+* Materialize
