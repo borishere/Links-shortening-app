@@ -58,7 +58,7 @@ export const LinksPage: React.FC = () => {
                                 href="/"
                                 id={link._id}
                                 key={link._id}
-                                className="collection-item"
+                                className="collection-item teal-text text-darken-2"
                                 onClick={(e) => clickHandler(e)}
                             >
                                 {link.initial}

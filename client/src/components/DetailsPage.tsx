@@ -35,9 +35,24 @@ export const DetailsPage: React.FC = () => {
                     <div className="card-content white-text">
                         <h2>Link details</h2>
                         <h4>Initial:</h4>
-                        {link.initial}
+                        <p className="link-text">
+                            {link.initial}
+                        </p>
                         <h4>Short:</h4>
-                        {link.short}
+                        <p className="link-text">
+                            {link.short}
+                        </p>
+                        <div>
+                            <a
+                                href={link.short}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="waves-effect waves-light btn-large"
+                                style={{ marginTop: '20px' }}
+                            >
+                                Open Url
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
